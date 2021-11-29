@@ -1,0 +1,443 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*::placeholder {
+    color: #a0a0a0;
+    padding-left: 1em;
+}*/
+input[type=text]{
+    padding-left: 1em !important;
+    color: #999999;
+}
+button[type=submit]{
+    font-size: 3.5vh;
+}
+
+/* ========================style header==============================*/
+header{
+    /*height: 12em;*/
+    margin: 1rem;
+}
+header .logo img{
+    width: 100%;
+    padding: 0.5em;
+}
+header .img-bg img{
+    width: 100%;
+}
+header .right-header{
+    padding: 0.5em;
+    width: 100%;
+    text-align: end;
+}
+header .right-header>.language{
+    padding-bottom: 1em;
+    border-bottom: 1px dashed #cccccc;
+    width: 70%;
+    margin: 0 25%;
+}
+header .right-header>.language>p{
+    display: inline-block;
+    margin-bottom: 0;
+}
+header .right-header>.language>a>img{
+    margin: 0 0.5em;
+}
+header .right-header .login-reg{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #8a8a8a;
+    margin: 1em 0;
+}
+
+header .right-header .login-reg a{
+    color: #8a8a8a;
+    text-decoration: none;
+}
+header .right-header .login-reg a:hover{
+    color: #4f2f8a;
+}
+header .right-header .login-reg>span{
+    margin: 0 0.8em;
+}
+header .right-header .form-custom{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+}
+header .right-header .form-custom >.text-custom{
+    width: 75%;
+    border: none;
+    margin-right: 0px !important;
+    padding: 0;
+    border-radius: 20px;
+    /*text-align: center;*/
+}
+
+header .right-header .form-custom button{
+    height: 38px;
+    width: 25%;
+    border-radius: 20px;
+    background: #f16725;
+    border: none;
+    color: white;
+}
+/*header .right-header .form-custom button:hover{
+    background: #f16725;
+}*/
+/* ===================style nav=============================*/
+nav.custom-nav,footer {
+    background: #4f2f8a !important;
+    margin-top: -3em;
+    padding: 0;
+
+
+}
+nav.custom-nav .custom-list ul li{
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+
+}
+nav.custom-nav .custom-list ul li:hover{
+    background: #f16725;
+}
+nav.custom-nav .custom-list ul li a{
+    color: #f3f1f7 !important;
+
+}
+.custom-toggle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+.custom-toggle.navbar-toggler {
+    border-color: white;
+}
+
+/*==============================style main===============================*/
+main{
+
+}
+
+main .carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+main .carousel-indicators .active,.hover{
+    width: 32px;
+    height: 20px;
+    border-radius: 44%;
+}
+main .custom-carousel h3 {
+    font-size: 3vw;
+    /*margin-bottom: 20%;*/
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main .custom-carousel img{
+    width: 100%;
+}
+main .custom-carousel .carousel-caption-custom{
+    bottom: 10vw;
+}
+/*=====================style area===============*/
+main .area{
+    padding-top: 5em;
+    background: #f8f8f8;
+}
+main .area .custom-area{
+    width: 100%;
+    margin: 2.5em 0;
+}
+main .area .custom-area h5{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main .area .custom-area hr{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+main .area .custom-area .item-area{
+
+    margin: 2.5em 0;
+
+}
+
+main .area .item-area .item-area-custom{
+    width: 100%;
+    position: relative;
+    padding-bottom: 1em;
+}
+main .area .item-area .play-custom{
+    position: absolute;
+    left: 42%;
+    bottom: 38%;
+    font-size: 15vh;
+    color: white;
+}
+main .area .item-area .btn-custom {
+    background: #f16725;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+
+}
+main .area .item-area .btn-custom:hover,
+.area .modal-custom .modal-footer-custom .btn-modal-custom:hover{
+    background: #4f2f8a;
+}
+
+.area .modal-custom .modal-footer-custom .btn-modal-custom{
+    background: #f16725;
+}
+
+/*=============================style why-abc========================*/
+.why-abc{
+    padding: 2.5em 0;
+    border-bottom: 1px solid #dddddd;
+
+}
+.why-abc h2,.latest-updates h2{
+    width: 100%;
+    margin-bottom: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.why-abc hr,.latest-updates hr{
+    margin-top:0 ;
+    border: 4px solid black;
+    margin-bottom: 1.2em;
+    width: 60px;
+}
+.why-abc ul li i{
+    padding-right: 1em;
+    color: #f5905f;
+}
+.why-abc ul li{
+    color: #606060;
+    padding-top: 1em;
+}
+/*=============================style latest-updates=============================*/
+.latest-updates{
+    margin: 2.5em 0;
+}
+.latest-updates .card-custom{
+    border: none;
+}
+.latest-updates .card-custom h5{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.latest-updates .card-custom p.custom-body{
+    color: #606060;
+    font-size: 13px;
+}
+.latest-updates .card-custom a{
+    color: #f16725;
+}
+.latest-updates .card-custom .card-body:hover,
+.latest-updates .card-custom a:hover{
+    color:#4f2f8a;
+}
+.latest-updates .card-body-custom{
+    padding: 1.25rem 0;
+}
+/*=============================style solvers-challenges=============================*/
+.solvers-challenges{
+    background: #f8f8f8;
+    padding-bottom: 1.5rem;
+    margin-bottom: 4.3rem
+}
+.custom-solver, .custom-challenges{
+    padding-top: 4.5em;
+}
+.solvers-challenges .inner-solver,
+.solvers-challenges .inner-challenges{
+    width: 100%;
+}
+.inner-solver h3,
+.inner-challenges h3{
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    width: 33%;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.inner-solver hr{
+    position: absolute;
+    width: 52%;
+    right: 13%;
+    top: 13%;
+}
+.inner-solver .icon-left-right{
+    display: inline-block;
+    width: 8%;
+    position: relative;
+    left: 60%;
+
+}
+.inner-solver .icon-left-right i{
+    padding-right: 2px;
+    font-size: 13px;
+}
+
+.inner-solver .icon-left-right i:hover{
+    color: #664a99;
+}
+.inner-challenges hr{
+    position: absolute;
+    width: 67%;
+    right: 2%;
+    top: 13%;
+}
+.custom-solver .inner-person{
+    margin-top: 1.5em;
+}
+
+.custom-solver .inner-person .person{
+    width: 100%;
+    display: flex;
+    padding-bottom: 1em;
+}
+.custom-solver .inner-person .person img{
+    width: 30%;
+    height: 30%;
+}
+.custom-solver .inner-person .person p{
+    padding: 2.5em;
+    font-weight: 600;
+}
+.custom-solver .inner-person .person p:hover{
+    color: #664a99;
+}
+.custom-challenges .custom-row-challenges{
+    margin-top: 1.5em;
+}
+.custom-challenges .challengers-group .item{
+    width: 100%;
+    margin: 2.5em 0;
+}
+.custom-challenges .challengers-group .item img{
+    position: relative;
+    width: 25%;
+    padding-right: 5px;
+}
+.custom-challenges .challengers-group .item .body-item{
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    padding-left: 5px;
+}
+.custom-challenges .challengers-group .item .body-item h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+.custom-challenges .challengers-group .item .body-item h5:hover{
+    color: #7157a0;
+}
+/*=========================style footer================*/
+footer{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.custom-footer{
+    padding: 3.5em 0;
+}
+.custom-footer h3{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.custom-footer h2{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+.custom-footer form{
+    width: 100%;
+    display: flex;
+    height: 78%;
+    border-radius: 40px;
+    padding-top: 11px;
+}
+.custom-footer form .text-footer,
+.custom-footer form .btn-footer{
+
+    border: none;
+}
+.custom-footer form .text-footer{
+    width: 80%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+.custom-footer form .btn-footer{
+    background: #f16725;
+    width: 20%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.copyright {
+
+    padding: 1.5em 0;
+    border-top: 1px solid #6c40bf
+}
+
+.custom-copyright p{
+    color: #9f7ce1;
+    font-size: 11px;
+    display: inline-block;
+}
+.custom-copyright a{
+    color: #ffffff;
+    font-size: 12px;
+}
+.copyright .icon-fa{
+
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+.copyright .icon-fa i{
+
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #4f2f8a;
+    margin-right: 0.5em;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+
+}
+.copyright .icon-fa i:hover{
+    color:#4f2f8a;
+    background: white;
+    border: 1px solid white;
+}
+.copyright .custom-icon{
+    width: 50%;
+
+}
+.link-privacy{
+    display: inline;
+}
+.copyright .custom-icon,
+.copyright .custom-copyright{
+    margin:1em 0;
+}
